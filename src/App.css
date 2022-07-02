@@ -2,37 +2,206 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    background-color:  #FFFFFF;
+    color: #87898D;
+    height: 60px;
+    padding: 15px 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-menu {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    background-color:  #FFFFFF;
+    color: #87898D;
+   justify-content: center;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-img {
+  width: 40px;
+  position: absolute;
+  right: 100px;
+  top: 10px;
+ 
+
+}
+.nav-items {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+
+.nav-search {
+  display: ;
+  background-color: #FEFEFE;
+  padding: 10px 10px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+  width: 360px;
+  top: 48px;
+  height: 56px;
+}
+
+.table-inf {
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+  width: 360px;
+  height: 75px;
+}
+
+
+.table-inf:hover {
+  background: #37404F;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.table-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  font-family: 'Open sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-right {
+    justify-content: space-between;
+    background-color: #FBFBFB;
+    color: #000000;
+    height: 56px;
+    width: 1080px;
+    padding: 10px 10px;
 }
+
+.font-st1 {
+   font-family: 'Open sans', sans-serif;
+   font-weight: 500px;
+   font-size: 18px;
+   font-style: normal;
+}
+
+.font-st2 {
+  font-family: 'Open sans', sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-size: 14px;
+  outline: 1px solid #000000;
+
+}
+
+.btn-hv:hover {
+  background: #000000;
+  color: white;
+}
+
+
+.main {
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: center;
+    padding: 100px;
+}
+
+.login {
+  position: absolute;
+  justify-content: center;
+  border-radius: 0.4em;
+  background-color: #FFFFFF;
+  padding: 3.5rem 2.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.font-title{
+  font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #363536;
+}
+
+.font-subtitle{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  color: #87898D;
+}
+
+.desc{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 12.8px;
+  font-weight: 100;
+  display: flex;
+  color: #363536;
+  margin-top: 15px;
+  padding: 3px;
+}
+
+.input-container {
+  display: flex;
+  gap: 8px;
+  margin: 2px;
+  height: 40px;
+  width: 320px;
+  border: 1px solid #E2E0E6;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  height: 48px;
+  width: 325px;
+  padding: 15px;
+  background: #4284F3;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 25px;
+
+
+
+}
+
+.form-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    border: 1px solid #DADCE0;
+    border-radius: 0.5rem;
+    outline: none;
+    padding-left: 7px;
+    background: none;
+    z-index: 1;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+

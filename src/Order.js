@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Main from './Main';
-
+import NavOrder from './NavOrder';
+import ColOrder from './ColOrder';
+import ColROrder from './ColROrder';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <App />
-  <Main />    
+      <NavOrder />
+      <ColOrder />
   </React.StrictMode>
 );
 
